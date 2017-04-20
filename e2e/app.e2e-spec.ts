@@ -7,7 +7,7 @@ describe('e2e-ngupgrade App', () => {
     page = new E2eNgupgradePage();
   });
 
-  it('should display message saying app works', () => {
+  it('should find message from angular', () => {
     page.navigateTo();
     expect(page.getParagraphText()).toEqual('app works!');
   });
